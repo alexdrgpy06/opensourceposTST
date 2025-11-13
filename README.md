@@ -70,7 +70,7 @@ The log in credentials are the same as the regular live demo.
 
 Please **refrain from creating issues** about installation problems before having read the FAQ and going through existing GitHub issues. We have a build pipeline that checks the sanity of our latest repository commit, and in case the application itself is broken then our build will be as well.
 
-This application can be set up in _many_ different ways and we only support the ones described in [the INSTALL.md file](INSTALL.md).
+This application can be set up in _many_ different ways and we only support the ones described in [the INSTALL.md file](INSTALL.md) ([Spanish version](INSTALL.es.md)).
 
 For more information and recommendations on support hardware, like receipt printers and barcode scanners, read [this page](https://github.com/opensourcepos/opensourcepos/wiki/Supported-hardware-datasheet) on our wiki.
 
