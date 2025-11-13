@@ -19,8 +19,10 @@
 
 <div id="page_subtitle"><?= esc($subtitle) ?></div>
 
-<div id="table_holder">
-    <table id="table"></table>
+<div class="table-responsive">
+    <div id="table_holder">
+        <table id="table"></table>
+    </div>
 </div>
 
 <div id="report_summary">
