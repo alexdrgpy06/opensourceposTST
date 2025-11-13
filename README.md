@@ -44,6 +44,12 @@ The features include:
 - Optional Google reCAPTCHA to protect the login page from brute force attacks
 - GDPR ready
 
+## 🌎 Spanish Language and Responsive Design
+
+This version introduces full Spanish language support. To switch to Spanish, go to `app/Config/App.php` and change the `defaultLocale` setting to `'es'`.
+
+Additionally, the user interface is now fully responsive, ensuring a seamless experience on both desktop and mobile devices.
+
 ## 🧪 Live Demo
 
 We've got a live version of our latest master running for you to play around with and test everything out. It's a containerized install that will reinitialize when new functionality is merged into our code repository.
@@ -64,7 +70,7 @@ The log in credentials are the same as the regular live demo.
 
 Please **refrain from creating issues** about installation problems before having read the FAQ and going through existing GitHub issues. We have a build pipeline that checks the sanity of our latest repository commit, and in case the application itself is broken then our build will be as well.
 
-This application can be set up in _many_ different ways and we only support the ones described in [the INSTALL.md file](INSTALL.md).
+This application can be set up in _many_ different ways and we only support the ones described in [the INSTALL.md file](INSTALL.md) ([Spanish version](INSTALL.es.md)).
 
 For more information and recommendations on support hardware, like receipt printers and barcode scanners, read [this page](https://github.com/opensourcepos/opensourcepos/wiki/Supported-hardware-datasheet) on our wiki.
 
@@ -86,7 +92,7 @@ NOTE: If you're running non-release code, please make sure you always run the la
 
 ## 📖 FAQ
 
-- If you get the message `system folder missing`, then you have cloned the source using git and you need to run a build first. Check [INSTALL.md](INSTALL.md) for instructions or download latest zip file from [GitHub releases](https://github.com/opensourcepos/opensourcepos/releases) instead.
+- If you get the message `system folder missing`, then you have cloned the source using git and you need to run a build first. Check [BUILD.md](BUILD.md) ([Spanish version](BUILD.es.md)) for instructions or download latest zip file from [GitHub releases](https://github.com/opensourcepos/opensourcepos/releases) instead.
 
 - If at login time you read `The installation is not correct, check your php.ini file.`, please check the error_log in `public` folder to understand what's wrong and make sure you read the [INSTALL.md](INSTALL.md). To know how to enable `error_log`, please read the comment in [issue #1770](https://github.com/opensourcepos/opensourcepos/issues/1770#issuecomment-355177943).
 
