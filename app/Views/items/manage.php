@@ -123,8 +123,10 @@ use App\Models\Employee;
     </div>
 </div>
 
-<div id="table_holder">
-    <table id="table"></table>
+<div class="table-responsive">
+    <div id="table_holder">
+        <table id="table"></table>
+    </div>
 </div>
 
 <?= view('partial/footer') ?>

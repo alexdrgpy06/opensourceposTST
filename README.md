@@ -44,6 +44,12 @@ The features include:
 - Optional Google reCAPTCHA to protect the login page from brute force attacks
 - GDPR ready
 
+## 🌎 Spanish Language and Responsive Design
+
+This version introduces full Spanish language support. To switch to Spanish, go to `app/Config/App.php` and change the `defaultLocale` setting to `'es'`.
+
+Additionally, the user interface is now fully responsive, ensuring a seamless experience on both desktop and mobile devices.
+
 ## 🧪 Live Demo
 
 We've got a live version of our latest master running for you to play around with and test everything out. It's a containerized install that will reinitialize when new functionality is merged into our code repository.

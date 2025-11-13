@@ -148,6 +148,28 @@ label.required {
     color: red;
 }
 
+@media (max-width: 767px) {
+    .navbar-nav {
+        display: block;
+    }
+
+    .navbar-nav > li {
+        display: block;
+    }
+
+    #page_title {
+        font-size: 18px;
+    }
+
+    .table-responsive {
+        width: 100%;
+        margin-bottom: 15px;
+        overflow-x: auto;
+        -ms-overflow-style: -ms-autohiding-scrollbar;
+        border: 1px solid #ddd;
+    }
+}
+
 @media (min-width: 768px) {
     .navbar-nav>li>a {
         padding: 10px 10px 9px;
