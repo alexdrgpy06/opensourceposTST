@@ -1,6 +1,7 @@
 # Open Source Point of Sale (OSPOS) - Enhanced Edition
 
-## Overview
+> ### Architect: Alejandro Ramírez
+
 **Open Source Point of Sale (OSPOS)** is a robust, web-based point-of-sale system designed for small to medium-sized businesses. It provides a comprehensive solution for managing inventory, sales, customers, and suppliers.
 
 This repository represents a polished and maintained version of the OSPOS system, ensuring stability, security, and a modern user experience.
